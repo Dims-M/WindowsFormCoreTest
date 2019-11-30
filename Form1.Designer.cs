@@ -42,6 +42,7 @@
             this.bSave.TabIndex = 0;
             this.bSave.Text = "Сохранить";
             this.bSave.UseVisualStyleBackColor = true;
+            this.bSave.Click += new System.EventHandler(this.bSave_Click);
             // 
             // bLoad
             // 
